@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-consumer-elastic-search" />
+        <module name="kafka-producer-consumer" />
+        <module name="kafka-producer-consumer-spring" />
+        <module name="kafka-tweets-streams" />
+        <module name="kafka-twitter-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-consumer-mongodb" target="1.5" />
+      <module name="kakfa-consumer-mongodb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka-producer-consumer-spring" options="-parameters" />
+    </option>
+  </component>
+</project>
