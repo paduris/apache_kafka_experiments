@@ -91,6 +91,11 @@ Topics are split into partitions
 
 **Command Line**
 
+**Start Services** Start Zookeeper and Kafka
+
+`> brew services start zookeeper`
+`> brew services start kafka`
+
 **Topic**
 
 **Create Topic:** Creates topic third_topic with 3 partitions and replication 1 
